@@ -29,8 +29,8 @@ Group Lead: none
 ### Container Meta-data and Annotations
 Containerization of applications is popular in enterprise. With the introduction of Singularity, containerization has also grown as a mechanism to deploy some HPC applications. Singularity, while popular and widespread in the community, is not the only container system being used. Other container runtimes including Shifter, CharlieCloud, and Sarus, are also utilized. It becomes crucial to ensure that containers provide appropriate information that automation layers need for job placement regardless of the container runtime layer. This group will explore and create the requirements of meta-data and container annotation independent of the container runtime used.
 
-Status: Seeking Group Lead  
-Group Lead: none
+Status: Active  
+Group Lead: Garima Kochar
 
 ### Public Key Infrastructure
 Singularity supports its own key management paradigm and leverages standard HKP (Horowitz Keyserver Protocol), but it needs to be extended to completely support Synchronizing Key Server (SKS) Pools and the Notary container standard currently being developed.
@@ -57,8 +57,8 @@ More and more, people are interested in leveraging additional resources for comp
 
 Another consideration is that once many locations are involved in handling a single workload, another immediate issue that arises is a common, secure software distribution platform that performs well over a wide area, and scales to very large numbers of nodes. This can be done via a distributed file system (perhaps CVMFS as an option) or a distributed caching system which works in conjunction with the orchestration and workflow engine.
 
-Status: Not Active  
-Group Lead: none
+Status: Active  
+Group Lead: Luke Wilson
 
 ### Reproducibility/Trust
 Reproducibility in science is a critical problem to solve so we can have confidence in the software environments that we are running in. While we can’t solve it for the entire stack (e.g. hardware), we can solve it for the software stack. The answer to reproducibility and compliance is trust and assurance.
